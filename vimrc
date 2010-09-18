@@ -31,10 +31,10 @@ source ~/.vim/myconf/go.vim
 source ~/.vim/myconf/minibufexpl.vim
 source ~/.vim/myconf/taglist.vim
 source ~/.vim/myconf/cscope.vim
-
+source ~/.vim/myconf/command-t.vim
 
 "Text settings.
-set sw=8
+set sw=4
 
 "Auto-folding
 set fdm=marker
