@@ -46,6 +46,7 @@ set fmr={{{,}}}
 "F4  - open GUI menu in text mode
 "F5  - color picker
 "F8  - toggle taglist
+"F9  - open NERDTree+taglist
 "F10 - make debug
 "F11 - open NNERDTree
 "F12 - make release
