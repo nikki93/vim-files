@@ -431,6 +431,6 @@ vnoremap  <buffer>  {<CR>   S{<CR>}<Esc>Pk=iB
 "
 "
 if !exists("g:C_Ctrl_j") || ( exists("g:C_Ctrl_j") && g:C_Ctrl_j != 'off' )
-  nmap    <buffer>  <silent>  <C-j>   i<C-R>=C_JumpCtrlJ()<CR>
-  imap    <buffer>  <silent>  <C-j>    <C-R>=C_JumpCtrlJ()<CR>
+  nmap    <buffer>  <silent>  <C-y>   i<C-R>=C_JumpCtrlJ()<CR>
+  "imap    <buffer>  <silent>  <C-j>    <C-R>=C_JumpCtrlJ()<CR>
 endif
