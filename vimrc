@@ -32,6 +32,7 @@ source ~/.vim/myconf/minibufexpl.vim
 source ~/.vim/myconf/taglist.vim
 source ~/.vim/myconf/cscope.vim
 source ~/.vim/myconf/command-t.vim
+source ~/.vim/myconf/yankring.vim
 
 "Text settings.
 set sw=4
