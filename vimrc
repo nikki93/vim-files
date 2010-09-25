@@ -1,7 +1,5 @@
-"Use pathogen to load plugins.
-filetype off 
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+runtime macros/tplugin.vim
+TPluginRoot ~/.vim/bundle
 
 "User interface settings.
 set guifont=Mono\ 6
