@@ -1,3 +1,4 @@
+"Plugins
 runtime macros/tplugin.vim
 TPluginRoot ~/.vim/bundle
 
@@ -19,7 +20,22 @@ else
 endif
 syntax on
 
-"Settings for plugins.
+"Plugins
+TPlugin! minibufexpl 
+
+"TPlugin c-support
+TPlugin omnicppcomplete
+TPlugin supertab
+
+TPlugin colorpicker
+TPlugin DrawIt
+
+TPlugin fugitive
+TPlugin manpageview
+
+TPlugin repeat
+TPlugin surround
+
 source ~/.vim/myconf/doxygen.vim
 source ~/.vim/myconf/nerdtree.vim
 source ~/.vim/myconf/omnicppcomplete.vim
@@ -49,6 +65,10 @@ set fmr={{{,}}}
 "F10 - make debug
 "F11 - open NNERDTree
 "F12 - make release
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-h> <C-w>h
+map <C-l> <C-w>l
 map <C-CR> :!urxvt &<CR>
 map <F1>  :bprevious<CR>
 map <C-p>  :bprevious<CR>
@@ -69,4 +89,3 @@ set wildmenu
 set cpo-=<
 set wcm=<C-Z>
 map <F4> :emenu <C-Z>
-

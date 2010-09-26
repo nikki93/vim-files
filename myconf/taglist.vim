@@ -1,4 +1,5 @@
 map <F8> :TlistToggle<CR>
+map <F9> :NERDTree<CR> :vertical resize 23<CR> :TlistToggle<CR>
 
 let Tlist_Enable_Fold_Column = 0
 let Tlist_Use_Right_Window = 1
