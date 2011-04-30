@@ -15,15 +15,16 @@ filetype plugin indent on
 
 if has('gui_running')
     colors wombat
-else
-    colors wombat256mod
+"else
+    "colors wombat256mod
 endif
 syntax on
 
 "Plugins
 TPlugin! minibufexpl 
 
-"TPlugin c-support
+TPlugin! c-support
+TPlugin yankring
 TPlugin omnicppcomplete
 TPlugin supertab
 
@@ -35,6 +36,8 @@ TPlugin manpageview
 
 TPlugin repeat
 TPlugin surround
+
+TPlugin vimwiki
 
 source ~/.vim/myconf/doxygen.vim
 source ~/.vim/myconf/nerdtree.vim
@@ -65,6 +68,8 @@ set fmr={{{,}}}
 "F10 - make debug
 "F11 - open NNERDTree
 "F12 - make release
+map k gk
+map j gj
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-h> <C-w>h
