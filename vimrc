@@ -23,7 +23,7 @@ syntax on
 "Plugins
 TPlugin! minibufexpl 
 
-TPlugin! c-support
+" TPlugin! c-support
 TPlugin yankring
 TPlugin omnicppcomplete
 TPlugin supertab
