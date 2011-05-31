@@ -42,6 +42,8 @@ TPlugin vimwiki
 TPlugin vim-ruby
 TPlugin vim-rails
 
+TPlugin haskellmode-20101118
+
 source ~/.vim/myconf/doxygen.vim
 source ~/.vim/myconf/nerdtree.vim
 source ~/.vim/myconf/omnicppcomplete.vim
@@ -54,6 +56,7 @@ source ~/.vim/myconf/cscope.vim
 source ~/.vim/myconf/command-t.vim
 source ~/.vim/myconf/yankring.vim
 source ~/.vim/myconf/vimwiki.vim
+source ~/.vim/myconf/haskell.vim
 
 "Text settings.
 set sw=4
