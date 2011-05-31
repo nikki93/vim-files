@@ -39,6 +39,9 @@ TPlugin surround
 
 TPlugin vimwiki
 
+TPlugin vim-ruby
+TPlugin vim-rails
+
 source ~/.vim/myconf/doxygen.vim
 source ~/.vim/myconf/nerdtree.vim
 source ~/.vim/myconf/omnicppcomplete.vim
