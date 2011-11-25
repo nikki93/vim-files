@@ -39,8 +39,6 @@ TPlugin manpageview
 TPlugin repeat
 TPlugin surround
 
-TPlugin vimwiki
-
 TPlugin vim-ruby
 TPlugin vim-rails
 
