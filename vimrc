@@ -3,7 +3,7 @@ runtime macros/tplugin.vim
 TPluginRoot ~/.vim/bundle
 
 "User interface settings.
-set guifont=Mono\ 11
+set guifont=Mono\ 8
 set guioptions-=T
 set ignorecase
 set nowrap
@@ -26,9 +26,8 @@ match ErrorMsg '\%>71v.\+'
 "Plugins
 TPlugin! minibufexpl 
 
-TPlugin! c-support
 TPlugin yankring
-TPlugin omnicppcomplete
+TPlugin clang_complete
 TPlugin supertab
 
 TPlugin colorpicker
