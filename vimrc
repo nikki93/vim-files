@@ -3,7 +3,7 @@ runtime macros/tplugin.vim
 TPluginRoot ~/.vim/bundle
 
 "User interface settings.
-set guifont=Mono\ 6
+set guifont=Mono\ 11
 set guioptions-=T
 set ignorecase
 set nowrap
@@ -20,10 +20,13 @@ if has('gui_running')
 endif
 syntax on
 
+"Highlight long lines
+match ErrorMsg '\%>71v.\+'
+
 "Plugins
 TPlugin! minibufexpl 
 
-" TPlugin! c-support
+TPlugin! c-support
 TPlugin yankring
 TPlugin omnicppcomplete
 TPlugin supertab
