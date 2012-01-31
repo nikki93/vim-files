@@ -15,8 +15,8 @@ filetype plugin indent on
 
 if has('gui_running')
     colors wombat
-"else
-    "colors wombat256mod
+else
+    colors wombat256mod
 endif
 syntax on
 
