@@ -31,3 +31,6 @@
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/CCTree"]
+	path = bundle/CCTree
+	url = https://github.com/vim-scripts/CCTree.git

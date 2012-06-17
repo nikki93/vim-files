@@ -22,8 +22,10 @@ syntax on
 
 "Plugins
 TPlugin! minibufexpl 
+TPlugin! dirsettings
 
 " TPlugin! c-support
+TPlugin CCTree
 TPlugin yankring
 TPlugin omnicppcomplete
 TPlugin supertab
