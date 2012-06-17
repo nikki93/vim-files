@@ -20,6 +20,8 @@ else
 endif
 syntax on
 
+set completeopt=longest,menuone,preview
+
 "Plugins
 TPlugin! minibufexpl 
 TPlugin! dirsettings
