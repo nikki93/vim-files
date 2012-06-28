@@ -3,7 +3,7 @@ runtime macros/tplugin.vim
 TPluginRoot ~/.vim/bundle
 
 "User interface settings.
-set guifont=Mono\ 6
+set guifont=Mono\ 8
 set guioptions-=T
 set ignorecase
 set nowrap
