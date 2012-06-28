@@ -30,24 +30,27 @@ TPlugin! dirsettings
 TPlugin CCTree
 TPlugin yankring
 TPlugin omnicppcomplete
+"TPlugin! clang_complete
 TPlugin supertab
+"TPlugin python-mode
 
 TPlugin colorpicker
 TPlugin DrawIt
 
 TPlugin fugitive
-TPlugin manpageview
+"TPlugin manpageview
 
 TPlugin repeat
 TPlugin surround
 
-TPlugin vimwiki
+"TPlugin vimwiki
 
-TPlugin vim-ruby
-TPlugin vim-rails
+"TPlugin vim-ruby
+"TPlugin vim-rails
 
-TPlugin haskellmode-20101118
+"TPlugin haskellmode-20101118
 
+source ~/.vim/myconf/python-mode.vim
 source ~/.vim/myconf/doxygen.vim
 source ~/.vim/myconf/nerdtree.vim
 source ~/.vim/myconf/omnicppcomplete.vim

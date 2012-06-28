@@ -51,7 +51,7 @@ if color_sel.run() == gtk.RESPONSE_OK:
         blue = "0%s" % blue
     print red, green, blue
     #Merge
-    color = "#%s%s%s" % (red, green, blue)
+    color = "0x%s%s%s" % (red, green, blue)
     #Get cursor position
     pos_y, pos_x = vim.current.window.cursor
     #Insert
