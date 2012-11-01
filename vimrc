@@ -3,8 +3,8 @@ runtime macros/tplugin.vim
 TPluginRoot ~/.vim/bundle
 
 "User interface settings.
-set guifont=Mono\ 8
-set guioptions-=T
+set guifont=Mensch\ 6
+set guioptions=
 set ignorecase
 set nowrap
 set expandtab
@@ -13,12 +13,9 @@ set incsearch
 filetype plugin on
 filetype plugin indent on
 
-if has('gui_running')
-    colors wombat
-else
-    colors wombat256mod
-endif
 syntax on
+colors hemisu
+set background=dark
 
 set completeopt=longest,menuone,preview
 
@@ -26,13 +23,14 @@ set completeopt=longest,menuone,preview
 TPlugin! minibufexpl 
 TPlugin! dirsettings
 
-" TPlugin! c-support
+TPlugin! c-support
 TPlugin CCTree
 TPlugin yankring
 TPlugin omnicppcomplete
 "TPlugin! clang_complete
 TPlugin supertab
 "TPlugin python-mode
+TPlugin ctrlp.vim
 
 TPlugin colorpicker
 TPlugin DrawIt
@@ -60,10 +58,11 @@ source ~/.vim/myconf/go.vim
 source ~/.vim/myconf/minibufexpl.vim
 source ~/.vim/myconf/taglist.vim
 source ~/.vim/myconf/cscope.vim
-source ~/.vim/myconf/command-t.vim
+"source ~/.vim/myconf/command-t.vim
 source ~/.vim/myconf/yankring.vim
 source ~/.vim/myconf/vimwiki.vim
 source ~/.vim/myconf/haskell.vim
+source ~/.vim/myconf/ctrlp.vim
 
 "Text settings.
 set sw=4
